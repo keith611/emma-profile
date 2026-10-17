@@ -1,7 +1,7 @@
 export const emmanuelProfile = {
   name: 'Emmanuel Masaka Mwatabu',
   publicPath: '/',
-  title: 'Co-founder · Developer',
+  title: 'Founder · Developer',
   description: "Emmanuel Masaka Mwatabu's Vexa digital profile. Connect, call, email, and explore shared projects.",
   role: 'Business Operations · Entrepreneurship',
   organization: 'Vexa · Fidika',
@@ -24,30 +24,31 @@ export const emmanuelProfile = {
       image: '/projects/fidika.jpg',
       url: 'https://fidika-site.vercel.app',
       status: 'Live website',
-      contribution: 'Co-founder · Developer',
+      contribution: 'Founder · Developer',
     },
     {
       name: 'Vexa',
       description: 'A smarter way to exchange professional identities and build lasting connections.',
       image: '/projects/vexa.jpg',
       status: 'In development',
-      contribution: 'Co-founder · Developer',
+      contribution: 'Founder · Developer',
     },
     {
       name: 'Nia',
       description: 'A vision for an AI-powered home assistant designed around African families.',
       image: '/projects/nia.jpg',
       status: 'Concept',
-      contribution: 'Co-founder · Developer',
+      contribution: 'Founder · Developer',
     },
     {
       name: 'Africa Dining & Travel Guide',
       url: 'https://african-dining-travel.vercel.app',
       status: 'Live website',
-      contribution: 'Co-founder · Developer',
+      contribution: 'Founder · Developer',
     },
   ],
 };
+
 
 
 
