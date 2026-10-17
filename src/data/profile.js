@@ -14,7 +14,6 @@ export const emmanuelProfile = {
   photo: '/emmanuel-mwatabu-profile.jpg',
   links: [
     { label: 'Fidika', url: 'https://fidika-site.vercel.app' },
-    { label: 'Africa Dining', url: 'https://african-dining-travel.vercel.app' },
     { label: 'Instagram', url: 'https://www.instagram.com/emmanuelmwatabu?xtok=M3Zwc2R4cTlkeGti' },
   ],
   projects: [
@@ -31,7 +30,7 @@ export const emmanuelProfile = {
       description: 'A smarter way to exchange professional identities and build lasting connections.',
       image: '/projects/vexa.jpg',
       status: 'In development',
-      contribution: 'Founder · Developer',
+      contribution: 'Investor',
     },
     {
       name: 'Nia',
@@ -40,14 +39,9 @@ export const emmanuelProfile = {
       status: 'Concept',
       contribution: 'Founder · Developer',
     },
-    {
-      name: 'Africa Dining & Travel Guide',
-      url: 'https://african-dining-travel.vercel.app',
-      status: 'Live website',
-      contribution: 'Founder · Developer',
-    },
   ],
 };
+
 
 
 
