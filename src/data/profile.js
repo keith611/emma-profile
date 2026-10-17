@@ -10,6 +10,7 @@ export const emmanuelProfile = {
   location: 'Dubai',
   email: 'mwatabuemmanuel@gmail.com',
   phones: ['+971 52 200 5123'],
+  whatsappPhone: '+971 52 200 5123',
   photo: '/emmanuel-mwatabu-profile.jpg',
   links: [
     { label: 'Fidika', url: 'https://fidika-site.vercel.app' },
@@ -47,5 +48,6 @@ export const emmanuelProfile = {
     },
   ],
 };
+
 
 

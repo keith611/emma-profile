@@ -20,7 +20,7 @@ export function ProfilePage({ profileData = emmanuelProfile }) {
   const socialLinks = links.filter((item) => ['GitHub', 'LinkedIn', 'Instagram'].includes(item.label));
   const configuredProfileUrl = import.meta.env.VITE_PUBLIC_PROFILE_URL || window.location.origin;
   const profileUrl = new URL(profile.publicPath || '/profile', new URL(configuredProfileUrl).origin).toString();
-  const whatsappDigits = (phones[1] || '').replace(/\D/g, '');
+  const whatsappDigits = (profile.whatsappPhone || phones[1] || '').replace(/\D/g, '');
   const whatsappPhone = whatsappDigits.startsWith('254') ? whatsappDigits : whatsappDigits.startsWith('0') ? `254${whatsappDigits.slice(1)}` : whatsappDigits;
   const whatsappUrl = whatsappPhone ? `https://wa.me/${whatsappPhone}?text=${encodeURIComponent(`Hi ${profile.name}, I found your profile on Vexa.`)}` : '';
 
@@ -227,4 +227,5 @@ export function ProfilePage({ profileData = emmanuelProfile }) {
     </main>
   );
 }
+
 
